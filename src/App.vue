@@ -1,5 +1,5 @@
 <script>
-import AppTitle from './components/appTitle.vue'
+import AppTitle from './components/AppTitle.vue'
 export default{
   components: {
     AppTitle
@@ -14,5 +14,10 @@ export default{
 </template>
 
 <style scoped>
+.center{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 500px;
+}
 
 </style>

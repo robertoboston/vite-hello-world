@@ -3,7 +3,7 @@ export default {
     name : "AppTitle",
     data (){
         return{
-            hello: 'ciao'
+            hello: 'La mia prima app con Vite!'
         }
     }
     
@@ -11,7 +11,8 @@ export default {
 </script>
 
 <template lang="">
-    <div>
+    
+    <div class="center">
         {{ hello }}
     </div>
 </template>
