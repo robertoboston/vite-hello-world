@@ -1,23 +1,18 @@
 <script>
-import AppTitle from './components/AppTitle.vue'
+import mainTitle from './components/mainTitle.vue'
 export default{
   components: {
-    AppTitle
+    mainTitle
   }
 }
 </script>
 
 <template>
   <div>
-    <AppTitle></AppTitle>
+    <mainTitle></mainTitle>
   </div>
 </template>
 
 <style scoped>
-.center{
-    text-align: center;
-    font-size: 30px;
-    margin-top: 500px;
-}
 
 </style>
